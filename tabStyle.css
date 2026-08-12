@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+   #title{
+        border: 1px solid yellowgreen;
+        height: 99vh;
+        background-image: url(./background.jpg);
+        background-size: cover;
+        width: 100%;
+        border-bottom: transparent; 
+        overflow: hidden;
+
+    }
+        /* first conatiner */
+    .main{
+      /*  border: 1px solid blue; */
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .navi{
+        display: none;
+    }
+    /* image conatiner */
+    .img-container{
+       /* border: 1px solid whitesmoke;*/
+        height: 100%;
+        margin: 2px;
+        padding: 2px;
+        flex: 0 0 45%;
+        
+    }
+        img{
+        height: 100%;
+        max-width: 90%;
+    }
+    /* text conatiner */
+    .text-block{
+       /* border: 1px solid yellowgreen; */
+        margin: 2px;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 10px;
+        color: white;
+        gap:10px;
+        flex: 0 0 55%; 
+        
+    }
+    /* child of text-block conatiner */
+    /* main text */
+    h1{
+         /*border: 1px solid yellowgreen; */
+         font-family:cinzel,sans-serif;
+         font-size: 4vw;
+         font-weight: 700;
+         padding: 5px;
+         margin-left: 10px;
+         color:gold;
+         flex: 0 0 5%;
+         width:85%
+    }
+     /* h2 description */
+    .desc{
+         /*border: 1px solid yellowgreen;*/
+         font-family: oxanium,serif;
+         font-weight: 300;
+         font-size: 1rem;
+         padding: 5px;
+         margin-left: 10px;
+         flex: 0 0 3%; 
+         width: 80%;
+    }
+     span{
+        color: violet;
+    }
+    /* para for extra details */
+    .define{
+         /*border: 1px solid yellowgreen; */
+         margin-left: 10px;
+         padding: 5px;
+         margin-top: 5px;
+         font-family: oxanium, serif;
+         font-weight: 200;
+         font-size: 0.9rem;
+         width: 75%;
+         line-height: 1.9;
+         flex: 0 0 6% 
+    }
+     /* resume button */
+    .resume{
+        /*border: 1px solid yellowgreen; */
+        margin-left: 10px;
+        padding: 20px;
+        margin-top: 10px;
+        text-decoration: none;
+        border-radius: 3px;
+        background: #4b707d;
+        background: linear-gradient(90deg, rgba(75, 112, 125, 1) 0%, rgba(162, 186, 186, 1) 50%, rgba(186, 237, 83, 1) 100%);
+        color: rgb(12, 35, 97); 
+        font-weight: 900;
+        font-size: 0.9rem;
+        flex: 0 0 1%;
+
+
+}
+.resume:hover{
+    background: #FFD700;
+    color: black;
+}
+  hr{
+      border: 1px dashed whitesmoke;  
+    }
+
+#features{
+    width: 100%;
+    height: 400px;
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+.features{
+   /* border: 1px solid black;*/
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    height: 100%;
+}
+.sm-container{
+   /* border: 1px solid blue;*/
+    padding: 3px;
+    margin-top: 9%;
+    flex: 0 0 30%;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+/* icon conatainer everything is emmbeeded in link tag */
+.icon-conatiner{
+    border: 1px solid gold;
+    height: 60%;
+    padding: 3px;
+    margin: 5px;
+    width: 45%;
+    border-radius: 8px;
+   background: #4b707d;
+   background: linear-gradient(45deg, rgba(75, 112, 125, 1) 7%, rgba(162, 186, 186, 1) 74%, rgba(186, 237, 83, 1) 100%);
+    display: inline-block;
+    vertical-align: top;
+}
+.icon{
+    height: 95%;
+    width:95%
+}
+.text-container{ 
+    /* border: 1px solid gold; */
+    padding: 3px;
+    margin: 2px;
+    height: 60%;
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top; /* forces to align from top edge rather tahn baseline on which text sits */
+
+}
+.features-label{
+    padding: 1px;
+    margin-top: 2px;
+    font-family: oxanium,serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: gold;
+    text-align: left;
+}
+#footer{
+   
+    background-color: #10242c;
+   /* border: 1px solid gold; */
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.top{
+    /*border: 1px solid yellowgreen; */
+    height: 5rem;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.return{
+    /* border: 1px solid yellowgreen; */
+     text-decoration: none;
+     color: whitesmoke;
+     font-family: oxanium, serif;
+     padding: 10px;
+     text-decoration: none;
+     font-family: oxanium, serif;
+     font-size: 1rem;
+     font-weight: 800;
+     flex : 0 0 50%;
+     text-align: center;
+
+    }    
+
+.foot-container{
+   /* border: 1px solid yellowgreen; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-links{
+    /* border: 1px solid yellowgreen;*/
+     padding: 10px;
+     text-decoration: none;
+     font-family: oxanium, serif;
+     text-decoration: none;
+     font-family: oxanium, serif;
+     font-weight: 500;
+     font-size: 0.7rem;
+     color: whitesmoke;
+     margin: 2px;
+     flex : 0 0 20%;
+     text-align: center;
+}
+.spe_line{
+    border-top: transparent;
+    width: 40%;
+    margin: 2px auto;
+}
+.social{
+   /* border:1px solid yellowgreen; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.ic-link{
+   /* border:1px solid yellowgreen;*/
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+    flex:0 0 10%;
+    text-align: center;
+}
+.soc-img{
+    border:1px solid goldenrod;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.copyright{
+   /* border:1px solid goldenrod; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+div[class="copyright"]>p{
+ color: whitesmoke;
+ text-transform: uppercase;
+ font-size: 0.7rem;
+ padding-left: 30px;
+}
+.mobile{
+    display: none;
+}

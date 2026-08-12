@@ -4,8 +4,8 @@
 
 }
 body{
-    height: 100vh;
-    width: 100vb;
+   /* height: 100vh;
+    width: 100vb; */
     
 }
 #title{
@@ -22,35 +22,32 @@ body{
     }
       .main{
        /* border: 1px solid blue; */
-        padding: 2px;
-        display: block;
-        min-height: 100vh;
-        height: auto;
-        min-width: 100%;
-        width:auto;
-    
-        
+       /* padding: 2px; */
+       display: block;
+       min-height: 100vh;
+       height: auto;
+       min-width: 100%;
+       width:auto;
     }
     .navi{
        /* border: 1px solid white;*/
-        display: flex;
-        width: 98vb;
-        height: 15%;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 10%;
-        padding: 5px;
-        border-top: transparent;
-        border-left: transparent;
-        border-right:1px solid goldenrod;
-        border-bottom: 1px solid goldenrod;
-        
+       display: flex;
+       width: 45vb;
+       height: 53%;
+       justify-content: space-evenly;
+       align-items: center;
+       gap: 10%;
+       padding: 5px;
+       border-top: transparent;
+       border-left: transparent;
+       border-right:1px solid goldenrod;
+       border-bottom: 1px solid goldenrod;
     }
     .button{
         text-decoration: none;
         font-family: oxanium,serif;
         color: whitesmoke;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .button:hover{
         background-color: rgb(167, 213, 58);
@@ -60,52 +57,49 @@ body{
 
     .header{
        /* border: 1px solid white;*/
-        margin-top:5px;
-        padding: 3px;
-        width: 100%;
-        margin-bottom: 10px;
-        text-align: center;
+       margin-top:15%;
+       /* padding: 3px; */
+       width: 100%;
+       text-align: center;
     }
     h1{
         /* border: 1px solid yellowgreen; */
-         font-family:cinzel,sans-serif;
-         font-size: 2.5rem;
-         font-weight: 700;
-         padding: 5px;
-         margin-left: 2px;
-         color:gold;
-         width:100%
+        font-family:cinzel,sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0px;
+        margin-left: 0px;
+        color:gold;
+        width:100%
     }
     .description{
          /*border: 1px solid white;*/
-         margin-top:5px;
-         padding: 3px;
+         padding: 0px;
          width: 100%;
          margin-bottom: 10px;
-         text-align: center;
+         text-align: left;
     }
     .desc{
        /* border: 1px solid yellowgreen; */
-         font-family:cinzel,sans-serif;
-         font-size: 2rem;
-         font-weight: 700;
-         padding: 5px;
-         margin-left: 8%;
-         color:gold;
-         width:85%
+       font-family:cinzel,sans-serif;
+       font-size: 1.2rem;
+       font-weight: 700;
+       padding: 5px;
+       margin-left: 4%;
+       color:gold;
+       width:85%
     }
       span{
         color: violet;
     }
 
      .img-container{
-       /* border: 1px solid whitesmoke;*/
-        height: 60%;
-        width: 60%;
-        margin: 20px auto;
-        padding: 2px;
-        text-align: center;
-        
+       /* border: 1px solid whitesmoke; */
+       height: 60%;
+       width: 60%;
+       margin: 20px auto;
+       padding: 2px;
+       text-align: center;
     }
         img{
         height: 100%;
@@ -119,38 +113,34 @@ body{
         /*border: 1px solid white;*/
         width: 100%;
         height: 10%;
-        text-align: center;
+        text-align: left;
     }
     
     .define{
        /*  border: 1px solid yellowgreen; */
-         margin-left: 10px;
-         padding: 15px;
-         margin-top: 5px;
-         font-family: oxanium, serif;
-         font-weight: 200;
-         font-size: 1.5rem;
-         width: 90%;
-         color:whitesmoke;
-         line-height: 2.5;
-   
+       margin-left: 10px;
+       padding: 12px;
+       margin-top: 3px;
+       font-family: oxanium, serif;
+       font-weight: 200;
+       font-size: 1.2rem;
+       width: 80%;
+       color:whitesmoke;
+       line-height: 2.1;
     }
     .resume{
-        /*border: 1px solid yellowgreen;*/ 
+        /*border: 1px solid yellowgreen;*/
         display: block;
-        margin: 20px auto;
+        margin: 60px auto;
         padding: 20px;
         text-decoration: none;
         border-radius: 10px;
         background: linear-gradient(90deg, rgba(75, 112, 125, 1) 0%, rgba(162, 186, 186, 1) 50%, rgba(186, 237, 83, 1) 100%);
-        color: rgb(12, 35, 97); 
+        color: rgb(12, 35, 97);
         font-weight: 900;
         font-size: 1.9rem;
         width:60%;
         text-align: center;
-        
-
-
 }
 .resume:hover{
     background: #FFD700;
@@ -235,3 +225,6 @@ div[class="copyright"]>p{
  font-size: 0.7rem;
  padding-left: 30px;
 }
+
+
+/*. 

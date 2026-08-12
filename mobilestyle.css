@@ -58,6 +58,7 @@
         background-color: rgb(167, 213, 58);
         color: black;
         font-size: 105%;
+        flex-basis:25%;
     }
     .about{
         text-align: center;

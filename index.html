@@ -1,33 +1,136 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
- </head>
- <body>
-    <h1> Faheem Akhoon's  Portfolio</h1>
-    <h2> I'm a Web Developer</h2>
+    <title>Portfolio site</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./tabStyle.css" rel="stylesheet" media="(min-width: 750px) and (max-width:1199px)" />
+    <link href="./mobilestyle.css" rel="stylesheet" media="(max-width:749px)" />
+    <!--fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section  id="title">
+        <div class="main container">
+           <!--nav for mobile-->
+           
+            <nav class="navi mobile">
+                <a class=" home button" href="#">Home</a>
+                <a class="about button" href="#">About Me</a>
+                <a class="skills button" href="#">Skills</a>
+                <a class="project button" href="#">Projects</a>
+            </nav>
+
+
+            <!--for mobile html element header-->
+            
+            <div class="mobile header">
+                <h1>I'M FAHEEM AKHOON</h1>
+            </div>
+            <div class="mobile description">
+                <h2 class="desc"> <span> Full-Stack </span>Web Developer</h2>
+            </div>
+              <!--end of mobile html element header-->
+           
+              <div class="img-container">
+                <img src="./profile.png" alt="profile" />
+            </div>
+
+
+            <!--moible element para-->
+           
+            <div class="mobile para">
+                <p class="define"> A Self-taught developer passionate about building fast, responsive and modern websites.</p>
+                <a  class="resume" href="./FAHEEM CV.pdf" download="Faheem_resume">Get My Resume</a> 
+
+            </div>
+            <!-- end of moible element para-->
+
+            <div class="text-block">
+                <h1>I'M FAHEEM AKHOON</h1>
+                <h2 class="desc"> <span> Full-Stack </span>Web Developer</h2>
+                <p class="define"> Self-taught developer passionate about building fast, responsive and modern websites.</p>
+                <a  class="resume" href="./FAHEEM CV.pdf" download="Faheem_resume">Get My Resume</a> 
+            </div>
+        </div>
+    </section>
     <hr />
-    <h3><a href="./public/Lesiure.html">How I spent my lesiure time</a></h3>
-    <br />
-      <img src="./assets/images/lesiure.png" alt="my project 1 overview"  height="300px" width="300px"/>
-    <h3><a href="./public/My Best Activity.html">My favourite outdoor  Activity</a></h3>
-    <img src="./assets/images/activity.png" alt="My favourite sport" height="300px" width="300px" />
 
-<hr />
-<a href="./public/contact.html">Contact Me</a>
-<a href="./public/about.html">About Me</a>
-<a href="./Resume_project/index.html">My Resumé </a>
-<a href="./flex_priceBox.html">Flex box Design </a>
-<a href="./Grid_mondrain.html">Grid Design</a>
-<a href="./TinDog_Project/index.html"> Tinder for Dogs </a>
-<a href="./Bootstrap_Components/index.html"> Start Up website </a>
-  
- </body>
- </html>
 
+    <section id="features">
+        <div class="features container">
+            <!--flex item-->
+            <div class="sm-container">
+            <a href="https://www.google.com" class="nav">
+            <div class="icon-conatiner">
+                <img src="./about me.png" alt="profile-icon" class="icon"/>
+            </div>
+            <div class="text-container">
+                <h2 class="features-label">About Me</h2>
+            </div>
+            </a>
+            </div>
+
+             <!--flex item-->
+             <div class="sm-container">
+            <a href="https://www.google.com" class="nav">
+            <div class="icon-conatiner">
+                <img src="./skill.png" alt="skills-icon" class="icon" />
+            </div>
+            <div class="text-container">
+                <h2 class="features-label two">Skills & projects</h2>
+            </div>
+            </a>
+            </div>
+
+             <!--flex item-->
+             <div class="sm-container">
+            <a href="https://www.google.com" class="nav">
+            <div class="icon-conatiner">
+                <img src="./contact.png" alt="contact-icon" class="icon" />
+            </div>
+            <div class="text-container">
+                <h2 class="features-label">Contact Me</h2>
+            </div>
+            </a>
+            </div>
+
+
+        </div>
+
+    </section>
+    
+
+
+    <section id="footer">
+        <div class="top">
+            <a href="#title" class="return">Return to Top </a>
+        </div>
+        <div class="foot-container">
+            <a href="#" class="bottom-links">About me </a>
+            <a href="#" class="bottom-links">Skills </a>
+            <a href="#" class="bottom-links">Projects </a>
+            <a href="#" class="bottom-links">Contact me </a>
+        </div>
+        <br/>
+        <hr class="spe_line"/>
+        <div class="social">
+          <a href="#" class="ic-link"><img src="./instagram.png" class="soc-img" alt="instagram" /></a> 
+           <a href="#" class="ic-link" ><img src="./linkedin.png" class="soc-img" alt="instagram" /></a> 
+        </div>
+
+        <div class="copyright">
+            <p> © AKHOON FAHEEM 2026</p>
+        </div>
+
+    </section>
+</body>
+</html>
 
 
 
